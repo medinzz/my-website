@@ -5,7 +5,7 @@ export const greetings = {
 	title: "Hi, I'm Joshua",
 	description:
 		"A passionate Software Developer having an experience of building Web applications with JavaScript / Reactjs / Python / Django and some other cool libraries and frameworks and Cross Platform Mobile Apps With Flutter.",
-	resumeLink: "#",
+	resumeLink: "https://github.com/medinzz/ojt-portfolio/raw/main/src/assets/RESUME.pdf",
 }
 
 export const socialLinks = {
