@@ -62,5 +62,20 @@ export const skillsSection = {
 			icon: <i className="fab fa-git-alt"></i>,
 		},
 	],
-};
+}
+
+export const SkillBars = [
+	{
+		Stack: "Frontend/Design",
+		progressPercentage: "50",
+	},
+	{
+		Stack: "Backend",
+		progressPercentage: "90",
+	},
+	{
+		Stack: "Programming",
+		progressPercentage: "80",
+	},
+]
 
