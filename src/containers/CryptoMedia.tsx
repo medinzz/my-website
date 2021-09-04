@@ -72,7 +72,7 @@ const CryptoMedia = () => {
                     </ButtonGroup>
 
                   </Col>
-                  <Col lg="6">
+                  <Col lg="6" className="pt-5">
                     <img className="img-fluid" src={cryptomedia} alt="cryptomedia.gif" />
                   </Col>
                 </Row>
