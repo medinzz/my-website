@@ -4,14 +4,15 @@ import {
   Button,
   Container,
   Row,
-  Col
+  Col,
+  ButtonGroup
 } from "reactstrap"
 import cryptomedia from '../assets/images/cryptomedia.gif'
 
 
 const CryptoMedia = () => {
   return (
-    <Fade direction="down" duration={1000}>
+    <Fade direction="down" duration={1000} triggerOnce={true}>
       <main ref="main">
         <div className="position-relative">
           <section className="section section-lg section-shaped pb-250">
@@ -46,6 +47,30 @@ const CryptoMedia = () => {
                     <p className="text-white lead">
                       The new generation of social media for cryptocurrencies.
                     </p>
+
+                    <ButtonGroup>
+                      <Button
+                      className="btn-icon"
+                      color="github"
+                      href="https://github.com/medinzz/medinzz.github.io"
+                      target="_blank"
+                      >
+                        <span className="btn-inner--icon">
+                          UI  <i className="fab fa-github" />
+                        </span>
+                      </Button>
+                      <Button
+                      className="btn-icon"
+                      color="github"
+                      href="https://github.com/medinzz/cryptomedia"
+                      target="_blank"
+                      >
+                        <span className="btn-inner--icon">
+                          API  <i className="fab fa-github" />
+                        </span>
+                      </Button>
+                    </ButtonGroup>
+
                   </Col>
                   <Col lg="6">
                     <img className="img-fluid" src={cryptomedia} alt="cryptomedia.gif" />

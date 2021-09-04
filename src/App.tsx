@@ -4,6 +4,8 @@ import ProgrammingProficiency from './containers/ProgrammingProfeciency'
 import EducationalBackground from './containers/EducationalBackground'
 import CompanyBackground from './containers/CompanyBackground'
 import CryptoMedia from './containers/CryptoMedia'
+import CryptoMediaDoc from './containers/CryptoMediaDoc'
+import MeContainer from './containers/Me'
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
     <EducationalBackground />
     <CompanyBackground />
     <CryptoMedia />
+    <CryptoMediaDoc />
+    <MeContainer />
     </>
   )
 }

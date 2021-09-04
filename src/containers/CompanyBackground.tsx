@@ -28,8 +28,8 @@ const CompanyBackground = () => {
             {
               workExperience.map((data, i) => {
                 return (
-                  <Col md={6}>
-                    <WorkCard key={i} data={data} />
+                  <Col md={6} key={i}>
+                    <WorkCard data={data} />
                   </Col>
                 )
               })
