@@ -8,6 +8,7 @@ import {
   ButtonGroup
 } from "reactstrap"
 import cryptomedia from '../assets/images/cryptomedia.gif'
+import 'bootstrap/dist/css/bootstrap.css'
 
 
 const CryptoMedia = () => {

@@ -6,6 +6,8 @@ import {
     Row,
     Col
 } from "reactstrap"
+import 'bootstrap/dist/css/bootstrap.css'
+
 
 const EducationalBackground = () => {
     return ( 

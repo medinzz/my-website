@@ -14,8 +14,8 @@ import {
 
 import GreetingLottie from "../components/DisplayLottie"
 import SocialLinks from "../components/SocialLinks"
+import 'bootstrap/dist/css/bootstrap.css'
 
-import "../assets/css/argon-design-system-react.css"
 
 const Greetings = () => {
   useEffect(() => {

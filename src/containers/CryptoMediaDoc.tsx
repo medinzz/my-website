@@ -10,6 +10,7 @@ import {
 import cmsignin from '../assets/images/cmsignin.png'
 import cmregister from '../assets/images/cmregister.png'
 import cmhome from '../assets/images/cmhome.png'
+import 'bootstrap/dist/css/bootstrap.css'
 
 
 const CryptoMediaDoc = () => {
@@ -17,7 +18,7 @@ const CryptoMediaDoc = () => {
     <>
       <Fade direction="left" duration={1000}>
         <Container className="my-5 text-center section section-lg">
-          <h1 className="h1">How it works?</h1>
+          <h1 className="display-3">How it works?</h1>
           <p>
             Crypto Media is a social media for cryptocurrency enthusiast. It uses a custom GraphQL API made with Django
             and it's frontend technology uses React.js TypeScript. as of now the website is not yet available because
@@ -25,8 +26,16 @@ const CryptoMediaDoc = () => {
           </p>
           <div className="py-5">
             <Row>
-              <Col lg="6" className="py-5">
-                <div className="py-5">
+              <Col md={6}>
+                <img className="img-fluid" src={cmsignin} alt="cmsignin.png" />
+              </Col>
+              <Col md={6}>
+                <img className="img-fluid" src={cmregister} alt="cmregister.png" />
+              </Col>
+            </Row>
+            <Row>
+              <Col lg="6" className="py-5 mx-auto">
+                <div>
                   <h3 className="pb-2 display-4">
                     Authentication System
                   </h3>
@@ -34,14 +43,6 @@ const CryptoMediaDoc = () => {
                     Crypto Media use JWT Authentication System which is a great auth system for web.
                   </p>
                 </div>
-              </Col>
-              <Col lg="6">
-                <Row>
-                  <img className="img-fluid" src={cmsignin} alt="cmsignin.png" />
-                </Row>
-                <Row>
-                  <img className="img-fluid" src={cmregister} alt="cmregister.png" />
-                </Row>
               </Col>
             </Row>
           </div>
