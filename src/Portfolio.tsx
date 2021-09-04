@@ -1,10 +1,12 @@
 import emoji from "react-easy-emoji"
+import rightvalley from "./assets/images/rightvalley.png"
+
 
 export const greetings = {
 	name: "Joshua Merwin Medina",
 	title: "Hi, I'm Joshua",
 	description:
-		"A passionate Software Developer having an experience of building Web applications with JavaScript / Reactjs / Python / Django and some other cool libraries and frameworks and Cross Platform Mobile Apps With Flutter.",
+		"A passionate Software Developer having experience in building Web applications with JavaScript / Reactjs / Python / Django and some other cool libraries and frameworks and Cross-Platform Mobile Apps With Flutter.",
 	resumeLink: "https://github.com/medinzz/ojt-portfolio/raw/main/src/assets/RESUME.pdf",
 }
 
@@ -77,5 +79,51 @@ export const SkillBars = [
 		Stack: "Programming",
 		progressPercentage: "80",
 	},
+]
+
+export const educationInfo = [
+	{
+		schoolName: "Polytechnic University of the Philippines",
+		subHeader: "Diploma in Information Communication Technology",
+		duration: "June 2019 - Present",
+		desc: "Participated in NASA Space Apps Challenge last november 2019",
+		descBullets: [
+			"Team leader at Software Development Projects.",
+			"Analytical Hands-on experience in weekly school activities.",
+		],
+	},
+	{
+		schoolName: "STI College Marikina",
+		subHeader: "TVL MAWD Information in Communication technology",
+		duration: "June 2017 - April 2019",
+		desc: "Mobile Application and Web Development SHS Course",
+		descBullets: [
+			"Participated at internal hackathons.",
+		],
+	},
+]
+
+export const workExperience = [
+	{
+		cardHeader: "RightValley",
+		image: rightvalley,
+		title: "Former Associate Software Developer",
+		date: "September 2020 - August 2021",
+		desc: 'RightValley is a software company focus on providing solutions to different businesses.',
+		website: <a href="https://rightvalley.com/">RightValley website </a>,
+		descBullets: [
+			"Provide production issue fix.",
+			"Feature integration.",
+			"Custom backend development.",
+		],
+	},
+	{
+		cardHeader: "Signant Health",
+		image: "https://www.signanthealth.com/wp-content/uploads/2021/02/new_logo.svg",
+		title: "Software Developer",
+		date: "September 2021 - Present",
+		desc: 'Signant Health is the global evidence generation company. We help you modernize clinical trials by meeting patients where they are and reimagining the path to proof.',
+		website: <a href="https://www.signanthealth.com/">Signant Health website </a>,
+	}
 ]
 
