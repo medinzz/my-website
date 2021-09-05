@@ -8,7 +8,7 @@ const SocialLinks = () => {
   return (
     <div className="btn-wrapper text-lg">
       <Button
-        className="btn-icon rounded-circle"
+        className="btn-icon text-light rounded-circle"
         color="twitter"
         href={socialLinks.twitter}
         target="_blank"
@@ -18,7 +18,7 @@ const SocialLinks = () => {
         </span>
       </Button>
       <Button
-        className="btn-icon rounded-circle ml-1"
+        className="btn-icon text-light rounded-circle ml-1"
         color="facebook"
         href={socialLinks.facebook}
         target="_blank"
@@ -28,7 +28,7 @@ const SocialLinks = () => {
         </span>
       </Button>
       <Button
-        className="btn-icon rounded-circle ml-1"
+        className="btn-icon text-light rounded-circle ml-1"
         color="github"
         href={socialLinks.github}
         target="_blank"
@@ -38,7 +38,7 @@ const SocialLinks = () => {
         </span>
       </Button>
       <Button
-        className="btn-icon rounded-circle ml-1"
+        className="btn-icon text-light rounded-circle ml-1"
         color="twitter"
         href={socialLinks.linkedin}
         target="_blank"

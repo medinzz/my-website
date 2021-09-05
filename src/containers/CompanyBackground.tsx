@@ -8,7 +8,6 @@ import { Fade } from 'react-awesome-reveal'
 import WorkCard from '../components/WorkCard'
 import { workExperience } from '../Portfolio'
 import coe from '../assets/images/CoE RightValley.jpg'
-import 'bootstrap/dist/css/bootstrap.css'
 
 
 const CompanyBackground = () => {

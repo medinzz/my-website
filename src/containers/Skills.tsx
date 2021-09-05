@@ -12,7 +12,6 @@ import {
 } from "reactstrap"
 
 import { skillsSection } from "../Portfolio"
-import 'bootstrap/dist/css/bootstrap.css'
 
 
 const Skills = () => {

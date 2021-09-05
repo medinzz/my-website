@@ -6,7 +6,6 @@ import {
 
 import "../assets/css/argon-design-system-react.css"
 import me from '../assets/images/me.jpg'
-import 'bootstrap/dist/css/bootstrap.css'
 
 
 const MeContainer = () => {

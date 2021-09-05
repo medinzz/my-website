@@ -14,7 +14,6 @@ import {
 
 import GreetingLottie from "../components/DisplayLottie"
 import SocialLinks from "../components/SocialLinks"
-import 'bootstrap/dist/css/bootstrap.css'
 
 
 const Greetings = () => {
@@ -48,7 +47,7 @@ const Greetings = () => {
                     <SocialLinks />
                     <div className="btn-wrapper my-4">
                       <Button
-                        className="btn-white btn-icon mb-3 mb-sm-0 ml-1"
+                        className="btn-light text-info btn-icon mb-3 mb-sm-0 ml-1"
                         color="default"
                         href={greetings.resumeLink}
                       >

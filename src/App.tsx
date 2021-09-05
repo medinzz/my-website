@@ -6,7 +6,6 @@ import CompanyBackground from './containers/CompanyBackground'
 import CryptoMedia from './containers/CryptoMedia'
 import CryptoMediaDoc from './containers/CryptoMediaDoc'
 import MeContainer from './containers/Me'
-import 'bootstrap/dist/css/bootstrap.css'
 
 
 function App() {

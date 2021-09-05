@@ -8,7 +8,6 @@ import {
   ButtonGroup
 } from "reactstrap"
 import cryptomedia from '../assets/images/cryptomedia.gif'
-import 'bootstrap/dist/css/bootstrap.css'
 
 
 const CryptoMedia = () => {
@@ -51,7 +50,7 @@ const CryptoMedia = () => {
 
                     <ButtonGroup>
                       <Button
-                      className="btn-icon"
+                      className="btn-icon text-light"
                       color="github"
                       href="https://github.com/medinzz/medinzz.github.io"
                       target="_blank"
@@ -61,7 +60,7 @@ const CryptoMedia = () => {
                         </span>
                       </Button>
                       <Button
-                      className="btn-icon"
+                      className="btn-icon text-light"
                       color="github"
                       href="https://github.com/medinzz/cryptomedia"
                       target="_blank"

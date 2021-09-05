@@ -12,7 +12,6 @@ import {
 import { Fade } from 'react-awesome-reveal'
 
 import GreetingLottie from "../components/DisplayLottie"
-import 'bootstrap/dist/css/bootstrap.css'
 
 
 const ProgrammingProficiency = () => {

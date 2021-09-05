@@ -10,7 +10,6 @@ import {
 import cmsignin from '../assets/images/cmsignin.png'
 import cmregister from '../assets/images/cmregister.png'
 import cmhome from '../assets/images/cmhome.png'
-import 'bootstrap/dist/css/bootstrap.css'
 
 
 const CryptoMediaDoc = () => {
