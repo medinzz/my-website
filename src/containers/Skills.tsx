@@ -17,7 +17,7 @@ import { skillsSection } from "../Portfolio"
 const Skills = () => {
   return (
     <Fade direction="left" duration={1000}>
-      <Container className="my-5 text-center section section-lg">
+      <Container className="mt-5 text-center section section-lg">
         <h1 className="h1">{skillsSection.title}</h1>
         <p className="lead">{skillsSection.subTitle}</p>
         <Row>

@@ -16,7 +16,7 @@ const CryptoMediaDoc = () => {
   return (
     <>
       <Fade direction="left" duration={1000}>
-        <Container className="my-5 text-center section section-lg">
+        <Container className="mt-5 text-center section section-lg">
           <h1 className="display-3">How it works?</h1>
           <p>
             Crypto Media is a social media for cryptocurrency enthusiast. It uses a custom GraphQL API made with Django
@@ -48,12 +48,8 @@ const CryptoMediaDoc = () => {
         </Container>
       </Fade>
       <Fade direction="left" duration={1000}>
-        <Container className="my-5 text-center section section-lg">
-            <Row>
-              <Col lg="6">
-                <img className="img-fluid" src={cmhome} alt="cmhome.png" />
-              </Col>
-              
+        <Container className="mb-5 text-center section section-lg">
+            <Row className="mb-5">
               <Col lg="6" className="py-5">
                 <div className="py-5">
                   <h3 className="pb-2 display-4">
@@ -65,6 +61,9 @@ const CryptoMediaDoc = () => {
                     at the web.
                   </p>
                 </div>
+              </Col>
+              <Col lg="6">
+                <img className="img-fluid" src={cmhome} alt="cmhome.png" />
               </Col>
             </Row>
         </Container>
