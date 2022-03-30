@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react'
+import { Fragment } from 'react'
 
 import { Fade } from 'react-awesome-reveal'
 import DisplayLottie from '../components/DisplayLottie'
@@ -16,7 +16,7 @@ import { skillsSection } from "../Portfolio"
 
 const Skills = () => {
   return (
-    <Fade direction="right" duration={200}>
+    <Fade direction="right" duration={500}>
       <Container className="mt-5 text-center section section-lg">
         <h1 className="h1">{skillsSection.title}</h1>
         <p className="lead">{skillsSection.subTitle}</p>

@@ -17,7 +17,7 @@ import GreetingLottie from "../components/DisplayLottie"
 const ProgrammingProficiency = () => {
   return (
     <Container className="section section-lg">
-      <Fade direction="left" duration={200}>
+      <Fade direction="left" duration={500}>
         <Row>
           <Col lg="6">
             <h1 className="h1">Programming Proficiency</h1>

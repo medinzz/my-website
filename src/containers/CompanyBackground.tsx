@@ -13,7 +13,7 @@ const CompanyBackground = () => {
   return (
     <section className="section section-lg">
       <Container>
-        <Fade direction="left" duration={200}>
+        <Fade direction="left" duration={500}>
           <div className="p-4 d-flex">
             <div>
               <div className="shadow icon icon-lg icon-shape bg-gradient-white rounded-circle text-info">

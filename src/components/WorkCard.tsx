@@ -5,7 +5,7 @@ import { Fade } from "react-awesome-reveal"
 const WorkCard = ({data}: any) => {
 
 	return (
-		<Fade direction="right" duration={1000}>
+		<Fade direction="right" duration={500}>
 			<Card className="mt-4 shadow card-lift--hover">
 				<CardHeader className="py-3 text-center bg-primary">
 					<h5 className="text-white">{data.cardHeader}</h5>
