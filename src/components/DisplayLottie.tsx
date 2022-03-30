@@ -1,4 +1,4 @@
-import React, { Suspense } from 'react'
+import { Suspense } from 'react'
 import  Lottie from 'lottie-react'
 import Loading from './Loading'
 

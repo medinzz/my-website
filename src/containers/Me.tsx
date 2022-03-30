@@ -32,7 +32,7 @@ const MeContainer = () => {
                     Again, I'm Joshua Merwin Medina
                   </h1>
                   <p className="text-white lead">
-                    I hope that you love my portfolio made for OJT requirements. 
+                    you can always email me for opportunities at: medinajoshuamerwin@gmail.com
                   </p>
                 </Col>
                 <Col lg="6">
