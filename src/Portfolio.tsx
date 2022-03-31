@@ -6,7 +6,7 @@ export const greetings = {
 	name: "Joshua Merwin Medina",
 	title: "Hi, I'm Joshua",
 	description:
-		"A passionate Software Developer having experience in building Web applications with JavaScript / Reactjs / Python / Django and some other cool libraries and frameworks and Cross-Platform Mobile Apps With Flutter.",
+		"A passionate Software Developer having experience in building Web applications with JavaScript / Node / Python / PHP and some other cool libraries and frameworks. I've also worked on Cross-Platform Mobile Apps With Flutter.",
 	resumeLink: "https://github.com/medinzz/ojt-portfolio/raw/main/src/assets/RESUME.pdf",
 }
 
@@ -18,15 +18,18 @@ export const socialLinks = {
 }
 
 export const skillsSection = {
-	title: "What I do",
+	title: "WHAT I DO?",
 	subTitle:
-		"ONE IN A MILLION DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+		"EAT, CODE, SLEEP, REPEAT",
 	skills: [
 		emoji(
-			"⚡ Develop highly secured API for your web and mobile applications"
+			"⚡ Develop quality APIs for your web and mobile applications."
 		),
 		emoji(
-			"⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"
+			"⚡ Integrate various technologies to the current system."
+		),
+		emoji(
+			"⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks."
 		),
 	],
 
@@ -52,8 +55,16 @@ export const skillsSection = {
 			icon: <i className="fab fa-npm"></i>,
 		},
 		{
+			skillName: "nodejs",
+			icon: <i className="fab fa-node"></i>,
+		},
+		{
 			skillName: "sql-database",
 			icon: <i className="fas fa-database"></i>,
+		},
+		{
+			skillName: "flask",
+			icon: <i className="fa fa-flask"></i>,
 		},
 		{
 			skillName: "python",
