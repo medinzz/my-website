@@ -10,7 +10,7 @@ import {
 
 const EducationalBackground = () => {
     return ( 
-        <section className="pb-5 my-5 section bg-gradient-info">
+        <section className="pb-5 section bg-gradient-info">
             <Container className="py-5">
                 <div className="px-3 d-flex">
                     <div>

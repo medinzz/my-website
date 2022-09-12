@@ -48,7 +48,7 @@ const Greetings = () => {
                     <div className="btn-wrapper my-4">
                       <Button
                         className="btn-light text-info btn-icon mb-3 mb-sm-0 ml-1"
-                        color="default"
+                        color="light"
                         href={greetings.resumeLink}
                         target="_blank"
                       >

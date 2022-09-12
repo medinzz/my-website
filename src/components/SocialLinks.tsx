@@ -6,8 +6,8 @@ const SocialLinks = () => {
   return (
     <div className="btn-wrapper text-lg">
       <Button
-        className="btn-icon text-light rounded-circle"
-        color="twitter"
+        className="twitter btn-icon text-info rounded-circle"
+        color="light"
         href={socialLinks.twitter}
         target="_blank"
       >
@@ -16,8 +16,8 @@ const SocialLinks = () => {
         </span>
       </Button>
       <Button
-        className="btn-icon text-light rounded-circle ml-1"
-        color="facebook"
+        className="facebook btn-icon text-info rounded-circle ml-1"
+        color="light"
         href={socialLinks.facebook}
         target="_blank"
       >
@@ -26,8 +26,8 @@ const SocialLinks = () => {
         </span>
       </Button>
       <Button
-        className="btn-icon text-light rounded-circle ml-1"
-        color="github"
+        className="github btn-icon text-info rounded-circle ml-1"
+        color="light"
         href={socialLinks.github}
         target="_blank"
       >
@@ -36,8 +36,8 @@ const SocialLinks = () => {
         </span>
       </Button>
       <Button
-        className="btn-icon text-light rounded-circle ml-1"
-        color="twitter"
+        className="twitter btn-icon text-info rounded-circle ml-1"
+        color="light"
         href={socialLinks.linkedin}
         target="_blank"
       >
