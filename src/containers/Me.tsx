@@ -4,7 +4,6 @@ import {
   Col
 } from "reactstrap"
 
-import "../assets/css/argon-design-system-react.css"
 import me from '../assets/images/me.jpg'
 
 

@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom'
 import App from './App'
 import reportWebVitals from './reportWebVitals'
 
-import "./assets/css/argon-design-system-react.css"
+import "./assets/css/argon-design-system-react.min.css"
 import './assets/css/bootstrap.min.css'
 import "./assets/vendor/nucleo/css/nucleo.css"
 import "@fortawesome/fontawesome-free/css/all.min.css"
