@@ -1,5 +1,4 @@
 import emoji from "react-easy-emoji"
-import rightvalley from "./assets/images/rightvalley.png"
 
 
 export const greetings = {
@@ -79,16 +78,16 @@ export const skillsSection = {
 
 export const SkillBars = [
 	{
-		Stack: "Frontend/Design Developmment",
-		progressPercentage: "70",
+		Stack: "Web Development",
+		progressPercentage: "80",
 	},
 	{
-		Stack: "Backend Development",
-		progressPercentage: "90",
+		Stack: "API Development",
+		progressPercentage: "80",
 	},
 	{
 		Stack: "Database Administration",
-		progressPercentage: "80",
+		progressPercentage: "100",
 	},
 ]
 
