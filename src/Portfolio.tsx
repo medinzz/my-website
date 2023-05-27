@@ -3,9 +3,9 @@ import emoji from "react-easy-emoji"
 
 export const greetings = {
 	name: "Joshua Merwin Medina",
-	title: "Hi, I'm Joshua",
+	title: "Hi, I'm Joshua Merwin",
 	description:
-		"A passionate software engineer having experience in building Web applications with JavaScript / Node / Python / PHP and some other cool libraries and frameworks. With eagerness and passion to learn more in software development architecture and artificial intelligence. I enjoy developing backend systems as I enjoy eating my favorite food. For me, It feels like a challenging mathematical problem that I really wanna solve. I'm also an agile practitioner. ",
+		"As a software developer, I am actively exploring various technologies within the realm of data. With a strong focus on data-driven solutions, I have been developing expertise in areas such as data analytics, data processing, and data visualization. Committed to staying at the forefront of emerging technologies, I am passionate about leveraging data to drive insights and create impactful solutions.",
 	resumeLink: "https://github.com/medinzz/ojt-portfolio/raw/main/src/assets/RESUME.pdf",
 }
 
@@ -138,6 +138,19 @@ export const workExperience = [
 			"Configure Post Processor application for clinical trial data.",
 			"Participate with different client meetings for the design and maintenance process for the study.",
 			"Build complex logics to provide clients' desired data.",
+		],
+	},
+	{
+		cardHeader: "Accenture",
+		image: "https://www.accenture.com/content/dam/accenture/final/images/icons/symbol/Acc_Logo_Black_Purple_RGB.png",
+		title: "Data Engineering Analyst",
+		date: "October 2022 - Present",
+		desc: 'Accenture is a global professional services company that offers strategy, consulting, digital, technology, and operational services to a wide range of industries. Their expertise lies in helping organizations improve performance, drive innovation, and navigate the challenges of a digital world through the use of advanced technologies.',
+		website: <a href="https://www.accenture.com/">Accenture website</a>,
+		descBullets: [
+			"Provide analytical solutions to clients.",
+			"Develop dashboard and generate reports.",
+			"Data pipeline developement and maintenance.",
 		],
 	}
 ]
