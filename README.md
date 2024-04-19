@@ -1,2 +1,2 @@
-## Portfolio made for OJT requirements
+## Personal Website
 this website is accessible thru https://https://joshuamerwin.me/
